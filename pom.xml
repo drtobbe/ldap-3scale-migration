@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <name>ldap-3scale-migration</name>
   <url>http://maven.apache.org</url>
-  <description>This application uses a LDIF export from LDAP, and imports all LDAP user items into 3Scale portal as an API developer.</description>
+  <description>This application uses a LDIF export from LDAP and imports all users into a 3Scale portal as an API developer.</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <source.level>1.7</source.level>
