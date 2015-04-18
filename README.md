@@ -10,11 +10,11 @@
 ### Mapping: LDAP -> 3Scale 
 
 	cn 		-> org_name
-	domain 	-> last_name
 	mail 	-> username
 	mail 	-> email
 	consumerId -> user_key
 	UUID.randomUUID() -> password
+	associatedDomainName -> last_name
 	
 	cn + "'s App" -> name
 	"Description of your default application" -> description
