@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account>
+  <id>2445581213966</id>
+  <created_at>2015-03-11T15:00:00Z</created_at>
+  <updated_at>2015-03-11T15:00:01Z</updated_at>
+  <state>approved</state>
+  <org_name>TEST4</org_name>
+  <extra_fields></extra_fields>
+  <credit_card_stored>false</credit_card_stored>
+  <plans>
+    <plan default="true">
+      <id>2357355814458</id>
+      <name>Default</name>
+      <type>account_plan</type>
+      <state>hidden</state>
+      <setup_fee>0.0</setup_fee>
+      <cost_per_month>0.0</cost_per_month>
+      <trial_period_days />
+      <cancellation_period>0</cancellation_period>
+    </plan>
+    <plan default="true">
+      <id>2357355814457</id>
+      <name>Default</name>
+      <type>service_plan</type>
+      <state>hidden</state>
+      <service_id>2555417724740</service_id>
+      <approval_required>false</approval_required>
+      <setup_fee>0.0</setup_fee>
+      <cost_per_month>0.0</cost_per_month>
+      <trial_period_days />
+      <cancellation_period>0</cancellation_period>
+    </plan>
+    <plan custom="false" default="true">
+      <id>2357355814459</id>
+      <name>Plan1</name>
+      <type>application_plan</type>
+      <state>published</state>
+      <service_id>2555417724740</service_id>
+      <end_user_required>false</end_user_required>
+      <setup_fee>0.0</setup_fee>
+      <cost_per_month>0.0</cost_per_month>
+      <trial_period_days />
+      <cancellation_period>0</cancellation_period>
+    </plan>
+  </plans>
+  <users>
+    <user>
+      <id>2445581364998</id>
+      <created_at>2015-03-11T15:00:00Z</created_at>
+      <updated_at>2015-03-11T15:00:01Z</updated_at>
+      <account_id>2445581213966</account_id>
+      <state>active</state>
+      <role>admin</role>
+      <username>test4</username>
+      <email>test4@test.com</email>
+      <extra_fields></extra_fields>
+    </user>
+  </users>
+  <applications>
+    <application>
+      <id>1409611685792</id>
+      <created_at>2015-03-11T15:00:00Z</created_at>
+      <updated_at>2015-03-11T15:00:00Z</updated_at>
+      <state>live</state>
+      <user_account_id>2445581213966</user_account_id>
+      <end_user_required>false</end_user_required>
+      <service_id>2555417724740</service_id>
+      <user_key>479584d180160d70243b0b082330b623</user_key>
+      <provider_verification_key>a97ae1deb254c9d2c5cf28e75ced5763</provider_verification_key>
+      <plan custom="false" default="true">
+        <id>2357355814459</id>
+        <name>Plan1</name>
+        <type>application_plan</type>
+        <state>published</state>
+        <service_id>2555417724740</service_id>
+        <end_user_required>false</end_user_required>
+        <setup_fee>0.0</setup_fee>
+        <cost_per_month>0.0</cost_per_month>
+        <trial_period_days />
+        <cancellation_period>0</cancellation_period>
+      </plan>
+      <name>API signup</name>
+      <description>API signup</description>
+      <extra_fields></extra_fields>
+    </application>
+  </applications>
+</account>

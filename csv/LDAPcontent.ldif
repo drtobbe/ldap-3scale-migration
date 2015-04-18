@@ -1,0 +1,21 @@
+version: 1
+
+#
+# LDAPv3
+# base <dc=cint,dc=ldap,dc=com> with scope subtree
+# filter: (objectclass=*)
+# requesting: ALL
+#
+
+# 4bac4cf5-1234-4922-99a5-1d0d96a728cd, clients, cint.ldap.com
+dn: clientId=4bac4cf5-2d86-4922-99a5-1d0d96a728cd,ou=clients,dc=cint,dc=ldap,dc=com
+ufn: 4bac4cf5-1234-4922-99a5-1d0d96a728cd, clients, cint.ldap.com
+associatedDomain: d3d3LmNpbnQuc2Usd3d3LmNpbnQyLnNl
+objectClass: client
+clientId: 4bac4cf5-1234-4922-99a5-1d0d96a728cd
+associatedDomainName: www.cint.se
+cn: CINT_TEST
+sn: CINT_TEST
+mail: test.test@test.se
+
+
